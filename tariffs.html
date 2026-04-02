@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<ul class="header__links">
+						<li><a href="#">Частным клиентам</a></li>
+						<li><a href="#">Бизнес</a></li>
+						<li><a href="#">Новости и  акции</a></li>
+					</ul>
+					<div class="header__info">
+						<p>9:00 - 18:00 ВС - выходной</p>
+						<a href="mailto:support@megastar.net.ru">support@megastar.net.ru</a>
+					</div>
+					<div class="header__contacts">
+						<ul class="socials-list">
+							<li><a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+						</ul>
+						<a href="tel:+79782001777" class="phone-main"><i class="fas fa-phone-alt"></i> +7 (978) 200-17-77</a>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+						<div class="logo-descr">Провайдер в Крыму и Херсонской области</div>
+					</div>
+					<div class="location-main">
+						<div class="location-main__value"><i class="fas fa-map-marker-alt"></i> Симферополь <i class="fas fa-chevron-down"></i></div>
+					</div>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li><a href="#">Тарифы</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Оборудование</a></li>
+							<li><a href="#">Способы оплаты</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="btn-main">Личный кабинет</a>
+					<a href="tel:+79782001777" class="phone-mobile"><i class="fas fa-phone-alt"></i></a>
+					<div class="sandwich">
+						<div class="sw-topper"></div>
+						<div class="sw-bottom"></div>
+						<div class="sw-footer"></div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<nav class="menu">
+					<ul class="menu__list">
+						<li><a href="#">Тарифы</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Оборудование</a></li>
+						<li><a href="#">Способы оплаты</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<ul class="header__links">
+					<li><a href="#">Частным клиентам</a></li>
+					<li><a href="#">Бизнес</a></li>
+					<li><a href="#">Новости и  акции</a></li>
+				</ul>
+				<div class="location-main">
+					<div class="location-main__value"><i class="fas fa-map-marker-alt"></i> Симферополь <i class="fas fa-chevron-down"></i></div>
+				</div>
+				<div class="header__info">
+					<p>9:00 - 18:00 ВС - выходной</p>
+					<a href="mailto:support@megastar.net.ru">support@megastar.net.ru</a>
+				</div>
+				<div class="header__contacts">
+					<ul class="socials-list">
+						<li><a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+					</ul>
+					<a href="tel:+79782001777" class="phone-main"><i class="fas fa-phone-alt"></i> +7 (978) 200-17-77</a>
+				</div>
+				<a href="#" class="btn-main">Личный кабинет</a>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="tariffs tariffs--page">
+			<div class="container">
+				<h1 class="title-section">Тарифы в Симферополе</h1>
+				<div class="tabs-wrapper">
+					<ul class="tabs">
+						<li class="active"><a href="#tab1">Квартира</a></li>
+						<li><a href="#tab2">Частный дом</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="tariffs__main">
+				<div class="container">
+					<div class="tab-container">
+						<div class="tab-pane" id="tab1">
+							<div class="row row-big">
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Минимальный</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff1.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 50 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">650 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 650 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Стартовый</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff2.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 100 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">750 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 750 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Комфорт</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff3.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 200 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">750 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 750 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Премиум</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff4.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 300 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">800 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 800 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Космос</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff5.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 500 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">1000 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 1000 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Платиновый</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff6.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 1000 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">1200 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 1200 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tab2">
+							<div class="row row-big">
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Минимальный</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff1.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 50 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">650 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 650 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Стартовый</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff2.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 100 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">750 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 750 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Комфорт</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff3.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 200 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">750 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 750 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Премиум</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff4.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 300 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">800 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 800 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Космос</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff5.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 500 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">1000 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 1000 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="item-tariff">
+										<div class="item-tariff__head">
+											<div class="item-tariff__title">Платиновый</div>
+											<div class="item-tariff__image">
+												<img src="img/tariff6.jpg" alt="alt">
+											</div>
+										</div>
+										<div class="item-tariff__content">
+											<div class="title-small">До 1000 Мбит/с</div>
+											<div class="item-tariff__text">
+												<p><strong>120+</strong> Каналов Телевидение</p>
+												<p>Бесплатное смс-информирование</p>
+												<p>Обещанный платёж <strong>3 дня бесплатно</strong></p>
+												<p>Бесплатная приостановка</p>
+											</div>
+											<div class="item-tariff__prices">
+												<div class="price-main">0 ₽<span>/мес</span></div>
+												<div class="price-default">1200 ₽/мес</div>
+											</div>
+											<div class="item-tariff__descr">Скидка 100% на месяц, далее - 1200 ₽/мес</div>
+											<a href="#" class="btn-main">Подключить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sale">
+			<div class="container">
+				<div class="sale__main">
+					<div class="sale__top">
+						<div class="sale__head">
+							<div class="sale__image">
+								<img src="img/sale.png" alt="alt">
+							</div>
+							<div class="sale__badge"><img src="img/ic_sale.png" alt="alt">АКЦИЯ</div>
+						</div>
+						<div class="sale__content">
+							<h2 class="sale__title">Увидели более низкую цену? <strong>Снизим ещё!</strong></h2>
+						</div>
+					</div>
+					<div class="sale__bottom">
+						<div class="title-small">Подключайтесь к нам и платите меньше, чем у конкурентов</div>
+						<a href="#" class="btn-main">Условия</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="steps">
+			<div class="container">
+				<h2 class="title-section">Шаги подключения</h2>
+				<div class="row row--steps">
+					<div class="col-lg-4">
+						<div class="item-step">
+							<div class="item-step__head">
+								<div class="item-step__count">01</div>
+								<div class="title-small">Заявка на подключение</div>
+							</div>
+							<p>Вы можете заполнить форму на сайте, позвонить нам по телефону или написать на электронную почту. Укажите ваш адрес, чтобы мы проверили техническую возможность подключения</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item-step">
+							<div class="item-step__head">
+								<div class="item-step__count">02</div>
+								<div class="title-small">Выезд монтажников на место</div>
+							</div>
+							<p>Вы можете заполнить форму на сайте, позвонить нам по телефону или написать на электронную почту. Укажите ваш адрес, чтобы мы проверили техническую возможность подключения</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item-step">
+							<div class="item-step__head">
+								<div class="item-step__count">03</div>
+								<div class="title-small">Интернет в вашем доме подключен</div>
+							</div>
+							<p>Вы можете заполнить форму на сайте, позвонить нам по телефону или написать на электронную почту. Укажите ваш адрес, чтобы мы проверили техническую возможность подключения</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="questions">
+			<div class="container">
+				<h2 class="title-main">Часто задаваемые вопросы</h2>
+				<div class="item-question active">
+					<div class="item-question__head">
+						<div class="title-small">Как проверить зону покрытия?</div>
+						<i class="fal fa-plus"></i>
+					</div>
+					<div class="item-question__content" style="display: block;">
+						<p>На сайте провайдера есть онлайн-форма для проверки по адресу или телефону поддержки.</p>
+					</div>
+				</div>
+				<div class="item-question">
+					<div class="item-question__head">
+						<div class="title-small">Что делать, если заявленная скорость ниже в реальности?</div>
+						<i class="fal fa-plus"></i>
+					</div>
+					<div class="item-question__content">
+						<p>На сайте провайдера есть онлайн-форма для проверки по адресу или телефону поддержки.</p>
+					</div>
+				</div>
+				<div class="item-question">
+					<div class="item-question__head">
+						<div class="title-small">Можно ли быстро перейти на более высокий тариф?</div>
+						<i class="fal fa-plus"></i>
+					</div>
+					<div class="item-question__content">
+						<p>На сайте провайдера есть онлайн-форма для проверки по адресу или телефону поддержки.</p>
+					</div>
+				</div>
+				<div class="item-question">
+					<div class="item-question__head">
+						<div class="title-small">Как улучшить сигнал при подключении через Wi-Fi-роутер?</div>
+						<i class="fal fa-plus"></i>
+					</div>
+					<div class="item-question__content">
+						<p>На сайте провайдера есть онлайн-форма для проверки по адресу или телефону поддержки.</p>
+					</div>
+				</div>
+				<div class="item-question">
+					<div class="item-question__head">
+						<div class="title-small">Как обновить драйверы сетевой карты?</div>
+						<i class="fal fa-plus"></i>
+					</div>
+					<div class="item-question__content">
+						<p>На сайте провайдера есть онлайн-форма для проверки по адресу или телефону поддержки.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Провайдер в Крыму и Херсонской области</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<ul class="footer__nav">
+							<li><a href="#">Тарифы</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Оборудование</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="footer__nav">
+							<li><a href="#">Способы оплаты</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<ul class="footer__menu">
+							<li><a href="#">Частным клиентам</a></li>
+							<li><a href="#">Бизнес</a></li>
+							<li><a href="#">Новости и  акции</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-contacts">
+						<div class="footer__contacts">
+							<a href="tel:+79782001777" class="phone-main">+7 (978) 200-17-77</a>
+							<p>Республика Крым, <br>м. р-н Джанкойский, с. п. Азовское, <br>пгт Азовское, ул. Н. Саввы, 40</p>
+							<div class="footer__info">
+								<p><a href="mailto:support@megastar.net.ru">support@megastar.net.ru</a></p>
+								<p>9:00 - 18:00 ВС - выходной</p>
+							</div>
+							<ul class="socials-list">
+								<li><a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="footer__wrapper">
+						<div class="footer__links">
+							<a href="#">Политика конфиденциальности</a>
+							<a href="#">Согласие на обработку персональных данных</a>
+						</div>
+						<div class="copyright">© Copyright 2026 г.</div>
+						<div class="create">Сделано в <a href="#" target="_blank"><img src="img/sheer.svg" alt="alt"></a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="js/common.js?ver=1.1"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
