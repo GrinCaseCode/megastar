@@ -168,7 +168,6 @@
     }
     .advantages {
         background-size: 2900px auto;
-        background-position: center top -4px;
     }
     .bottom-page {
         height: 580px;
@@ -291,7 +290,140 @@
     .questions {
         padding-bottom: 100px;
     }
+    .billbord--business .billbord__title {
+        max-width: 612px;
+        margin-bottom: 13px;
+    }
+    .billbord--business .billbord__descr {
+        margin-bottom: 18px;
+    }
+    .tags__item {
+        padding: 11px 14px;
+        font-size: 14px;
+    }
+    .billbord__main .tags {
+        margin-bottom: 22px;
+        max-width: 741px;
+    }
+    .tariffs .title-section {
+        margin-bottom: 42px;
+    }
+    .row--main .item-tariff__head {
+        padding-top: 27px;
+    }
+    .billbord-page__main {
+        padding: 35px 51px;
+        padding-bottom: 40px;
+    }
+    .billbord-page__main .title-small {
+        max-width: 467px;
+        margin-bottom: 44px;
+    }
+    .billbord-page__main .btn-main {
+        height: 62px;
+        width: 280px;
+    }
+    .billbord-page {
+        padding-bottom: 80px;
+    }
+    .why-us {
+        padding-top: 94px;
+        border-radius: 130px 130px 0 0;
+    }
+    .why-us__image img {
+        width: 676px;
+    }
+    .item-box {
+        padding: 28px;
+        min-height: 275px;
+        font-size: 15px;
+    }
+    .item-box__head {
+        gap: 17px;
+        margin-bottom: 17px;
+    }
+    .why-us__image {
+        margin-top: -38px;
+        margin-bottom: -42px;
+    }
+    .line-service {
+        font-size: 16px;
+        gap: 21px;
+        margin-bottom: 8px;
+        padding: 14px 19px;
+    }
+    .services-about {
+        padding: 30px;
+    }
+    .services-about__title {
+        font-size: 23px;
+    }
+    .services-about__image {
+        width: 123px;
+        margin-left: -10px;
+    }
+    .services-about__head {
+        margin-bottom: 26px;
+        padding-right: 0;
+        gap: 8px;
+    }
+    .services-about ul li {
+        margin-bottom: 16px;
+    }
+    .item-provider__title {
+        font-size: 25px;
+    }
+    .item-provider__head {
+        height: 210px;
+        padding: 26px 26px;
+        margin-bottom: -55px;
+    }
+    .item-provider__content {
+        padding: 20px;
+    }
+    .providers {
+        padding-top: 63px;
+        padding-bottom: 83px;
+    }
+    .item-catalog {
+        padding: 15px;
+    }
+    .item-catalog__image {
+        height: 225px;
+        margin-bottom: 22px;
+    }
+    .price-old, .item-catalog .price-main {
+        font-size: 24px;
+    }
+    .item-catalog .title-small {
+        margin-bottom: 15px;
+    }
+    .item-catalog__buttons {
+        padding-top: 17px;
+        gap: 13px;
+    }
+    .equipment .title-section:not(:first-child) {
+        margin-top: 42px;
+    }
+    .billbord-page--router .billbord-page__image img {
+        width: 664px;
+    }
+    .billbord-page--router .billbord-page__main .title-main {
+        max-width: 670px;
+        margin-bottom: 3px;
+    }
+    .billbord-page .title-section {
+        font-size: 37px;
+    }
+    .billbord-page--router .billbord-page__image {
+        top: 0;
+        right: -80px;
+    }
+    .equipment {
+        padding-bottom: 200px;
+    }
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .header__bottom .logo-descr {
@@ -434,6 +566,59 @@
         padding-top: 52px;
         padding-bottom: 85px;
     }
+    .billbord--business .billbord__title {
+        max-width: 454px;
+    }
+    .tags__item {
+        padding: 9px 12px;
+        font-size: 12px;
+    }
+    .billbord__main .tags {
+        margin-bottom: 19px;
+        max-width: 670px;
+    }
+    .why-us__image img {
+        width: 500px;
+    }
+    .item-box {
+        padding: 22px;
+        min-height: 242px;
+        font-size: 13px;
+    }
+    .why-us__image {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .services-about__title {
+        font-size: 20px;
+    }
+    .item-provider__title {
+        font-size: 19px;
+    }
+    .page-services {
+        margin-top: 25px;
+    }
+    .equipment {
+        border-radius: 60px 60px 0 0;
+        margin-top: 30px;
+    }
+    .price-old, .item-catalog .price-main {
+        font-size: 20px;
+    }
+    .item-catalog__image {
+        height: 195px;
+        margin-bottom: 15px;
+    }
+    .billbord-page .title-section {
+        font-size: 31px;
+    }
+    .billbord-page--router .billbord-page__image img {
+        width: 500px;
+    }
+    .billbord-page--router .billbord-page__image {
+        top: 34px;
+        right: -30px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -511,7 +696,15 @@
         padding-bottom: 190px;
         border-radius: 60px 60px 0 0;
         background-size: 1000px auto;
-        background-position: center top 350px;
+        background-position: 6% 350px;
+    }
+    @keyframes moveBackground {
+        0% {
+            background-position: 6% 350px;
+        }
+        100% {
+            background-position: 95% 350px;
+        }
     }
     .advantages__title {
         font-size: 32px;
@@ -843,6 +1036,107 @@
     .item-question {
         border-radius: 20px;
     }
+    .billbord--business .billbord__main {
+        padding-bottom: 0;
+    }
+    .tariffs .title-section {
+        margin-bottom: 23px;
+    }
+    .billbord-page__image {
+        position: relative;
+        height: auto;
+        margin-top: 15px;
+    }
+    .billbord-page {
+        padding-bottom: 50px;
+    }
+    .billbord-page__main {
+        padding: 25px 15px;
+        padding-bottom: 0;
+    }
+    .billbord-page__main .title-main {
+        font-size: 24px;
+    }
+    .billbord-page__main .title-small {
+        margin-bottom: 25px;
+    }
+    .billbord-page__main .btn-main {
+        height: 58px;
+        width: 100%;
+    }
+    .why-us {
+        padding-top: 48px;
+        border-radius: 60px 60px 0 0;
+    }
+    .why-us__image {
+        margin: -15px 0;
+    }
+    .why-us__image img {
+        width: 100%;
+    }
+    .item-box {
+        min-height: 100%;
+    }
+    .why-us {
+        padding-bottom: 50px;
+    }
+    .page-services {
+        padding-top: 31px;
+        padding-bottom: 60px;
+        border-radius: 60px 60px 0 0;
+    }
+    .line-service {
+        font-size: 13px;
+        gap: 10px;
+        margin-bottom: 8px;
+        padding: 10px;
+    }
+    .services-about {
+        padding: 20px 15px;
+    }
+    .services-about__title {
+        font-size: 16px;
+    }
+    .services-about__image {
+        width: 107px;
+    }
+    .services-about__head {
+        margin-bottom: 15px;
+    }
+    .services-about ul li {
+        margin-bottom: 12px;
+    }
+    .providers {
+        padding-top: 42px;
+        padding-bottom: 50px;
+    }
+    .item-provider__head {
+        height: 170px;
+        padding: 24px 22px;
+        margin-bottom: -38px;
+    }
+    .item-provider__content {
+        padding: 20px 15px;
+    }
+    .item-provider__content ul li {
+        margin-bottom: 15px;
+    }
+    .equipment {
+        padding-bottom: 150px;
+    }
+    .equipment+.billbord-page {
+        margin-top: -90px;
+    }
+    .billbord-page .title-section {
+        font-size: 20px;
+    }
+    .billbord-page--router .billbord-page__image img {
+        width: 100%;
+    }
+    .billbord-page--router .billbord-page__image {
+        top: 0;
+        left: 0;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -906,6 +1200,12 @@
     .item-tariff:hover .item-tariff__image img {
         transform: scale(1.1);
     }
+    .item-provider__info a:hover {
+        text-decoration: none;
+    }
+    .btn-main.btn-main--page:hover {
+        background: #000;
+    }
 }
 
 /*mobile hovers*/
@@ -929,5 +1229,11 @@
     }
     .item-tariff:active .item-tariff__image img {
         transform: scale(1.1);
+    }
+    .item-provider__info:active {
+        text-decoration: none;
+    }
+    .btn-main.btn-main--page:active {
+        background: #000;
     }
 }
