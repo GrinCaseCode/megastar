@@ -81,6 +81,14 @@
     .row.row--main>div {
         margin-bottom: 16px;
     }
+    .slider-four .slick-slide,
+    .slider-three .slick-slide {
+        padding: 30px 8px;
+    }
+    .slider-four .slick-list,
+    .slider-three .slick-list {
+        margin: -30px -8px;
+    }
     .row.row--main {
         margin-bottom: -16px;
     }
@@ -422,6 +430,227 @@
     .equipment {
         padding-bottom: 200px;
     }
+    .sales__main .title-section {
+        margin-bottom: 27px;
+    }
+    .sales__main .slider-three {
+        margin-bottom: 40px;
+    }
+    .item-sale__image {
+        height: 243px;
+        margin-bottom: 15px;
+    }
+    .item-news {
+        padding: 18px;
+        border-radius: 22px;
+    }
+    .item-news__date {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .item-news__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .item-news__bottom {
+        padding-top: 22px;
+    }
+    .sales__main {
+        padding-top: 38px;
+        padding-bottom: 70px;
+        border-radius: 80px 80px 0 0;
+    }
+    .sales {
+        padding-bottom: 70px;
+    }
+    .slick-arrow {
+        width: 38px;
+        height: 38px;
+        font-size: 13px;
+    }
+    .about-main__image img {
+        width: 626px;
+    }
+    .about-main .title-main {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .about-main__content {
+        padding-right: 10px;
+        padding-top: 29px;
+        padding-left: 10px;
+    }
+    .page-about {
+        padding-bottom: 70px;
+    }
+    .about-services {
+        padding-top: 41px;
+        padding-bottom: 240px;
+        margin-bottom: -110px;
+        border-radius: 130px 130px 0 0;
+    }
+    .about-services__content {
+        width: 440px;
+    }
+    .about-services__item {
+        width: 400px;
+        gap: 18px;
+        padding: 14px;
+    }
+    .about-services__item--1 {
+        top: 50px;
+        left: -319px;
+    }
+    .about-services__item--2 {
+        top: 50px;
+        right: -370px;
+    }
+    .about-services__item--3 {
+        top: 217px;
+        margin-right: 0px;
+    }
+    .about-services__item--4 {
+        top: 217px;
+        margin-left: 0;
+    }
+    .about-services__item--5 {
+        left: 33px;
+        bottom: -59px;
+    }
+    .about-cooperation {
+        padding-top: 45px;
+        padding-bottom: 100px;
+        border-radius: 70px 70px 0 0;
+    }
+    .about-cooperation .title-section {
+        margin-bottom: 35px;
+    }
+    .item-cooperation {
+        padding: 24px 24px;
+        height: 305px;
+    }
+    .item-cooperation .tags__item {
+        padding: 12px 16px;
+        font-size: 15px;
+    }
+    .unit-payment__title,
+    .item-cooperation__title {
+        font-size: 30px;
+    }
+    .page-payment {
+        padding-top: 36px;
+        margin-top: 40px;
+        padding-bottom: 70px;
+        margin-bottom: 70px;
+        border-radius: 70px 70px 0 0;
+    }
+    .item-payment__image {
+        height: 215px;
+        margin-bottom: 14px;
+    }
+    .item-payment p {
+        margin-bottom: 18px;
+    }
+    .item-payment .btn-main {
+        padding: 0 34px;
+    }
+    .unit-payment {
+        padding: 24px;
+        height: 287px;
+    }
+    .billbord-tv__image img {
+        width: 815px;
+    }
+    .billbord-tv__content {
+        padding-left: 35px;
+        padding-top: 35px;
+        padding-right: 15px;
+    }
+    .billbord-tv .title-small {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .billbord-tv__title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .billbord-tv__buttons .btn-main {
+        height: 62px;
+        padding: 0px 24px;
+    }
+    .billbord-tv__buttons {
+        gap: 15px;
+    }
+    .billbord-tv__image img {
+        width: 755px;
+    }
+    .billbord-tv .tags__item {
+        padding: 10px 9px;
+        font-size: 12px;
+    }
+    .page-tv {
+        padding-top: 25px;
+        padding-bottom: 70px;
+    }
+    .tv-subscription, .tv-archive {
+        padding: 50px 0;
+        border-radius: 130px 130px 0 0;
+    }
+    .tv-subscription .title-section, .tv-archive .title-section {
+        margin-bottom: 35px;
+    }
+    .tv-archive--1 {
+        width: 805px;
+    }
+    .tv-archive__advantage {
+        top: 17px;
+        left: -188px;
+        padding: 20px;
+        gap: 21px;
+        width: 300px;
+    }
+    .tv-archive--2 {
+        width: 575px;
+        margin-top: -138px;
+    }
+    .tv-archive--2 .tv-archive__advantage {
+        top: 190px;
+        left: -218px;
+        width: 320px;
+    }
+    .tv-devices .title-section {
+        margin-bottom: 34px;
+    }
+    .tv-devices {
+        padding: 65px 0;
+    }
+    .item-device {
+        padding: 20px;
+        font-size: 15px;
+    }
+    .item-device .title-small {
+        font-size: 16px;
+    }
+    .item-device__image {
+        height: 95px;
+        padding: 20px;
+        margin-bottom: 37px;
+    }
+    .tariffs--main .item-tariff__head {
+        height: 187px;
+    }
+    .item-subscription {
+        height: 555px;
+        padding: 22px;
+    }
+    .item-subscription__title {
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+
+    .item-subscription .price-main {
+        margin: 18px 0;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -618,6 +847,102 @@
     .billbord-page--router .billbord-page__image {
         top: 34px;
         right: -30px;
+    }
+    .item-news__title {
+        font-size: 20px;
+    }
+    .title-main {
+        font-size: 44px;
+    }
+    .about-services__content {
+        width: 335px;
+    }
+    .about-services__item {
+        width: 327px;
+        gap: 15px;
+        padding: 12px;
+    }
+    .about-services__item--1 {
+        top: 36px;
+        left: -249px;
+    }
+    .about-services__item--2 {
+        top: 36px;
+        right: -294px;
+    }
+    .about-services__item--3 {
+        top: 165px;
+        margin-right: -14px;
+    }
+    .about-services__item--4 {
+        top: 165px;
+        margin-left: -16px;
+    }
+    .about-services {
+        padding-top: 41px;
+        padding-bottom: 199px;
+        margin-bottom: -80px;
+        border-radius: 100px 100px 0 0;
+    }
+    .unit-payment__title,
+    .item-cooperation__title {
+        font-size: 24px;
+    }
+    .item-cooperation .tags__item {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .item-cooperation {
+        height: 280px;
+        padding: 20px;
+    }
+    .about-cooperation {
+        padding-bottom: 70px;
+    }
+    .about-main__image img {
+        width: 499px;
+    }
+    .item-payment__image {
+        height: 165px;
+    }
+    .item-payment {
+        padding: 16px;
+    }
+    .unit-payment {
+        padding: 22px;
+        height: 240px;
+    }
+    .item-subscription .btn-main {
+        min-width: 195px;
+    }
+    .row-devices {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .tv-archive--1 {
+        width: 650px;
+    }
+    .tv-archive__advantage {
+        top: 15px;
+        left: -145px;
+        padding: 12px;
+        gap: 15px;
+        width: 253px;
+    }
+    .tv-archive--2 {
+        width: 505px;
+        margin-top: -90px;
+    }
+    .tv-archive--2 .tv-archive__advantage {
+        top: 165px;
+        left: -177px;
+        width: 261px;
+    }
+    .billbord-tv__image img {
+        width: 600px;
+    }
+    .billbord-tv__title {
+        font-size: 28px;
+        margin-bottom: 17px;
     }
 }
 
@@ -1137,6 +1462,159 @@
         top: 0;
         left: 0;
     }
+    .sales__main {
+        padding-top: 38px;
+        padding-bottom: 50px;
+        border-radius: 50px 50px 0 0;
+    }
+    .sales {
+        padding-bottom: 50px;
+    }
+    .slider-four,
+    .slider-three {
+        padding-bottom: 35px;
+    }
+    .item-sale__image {
+        height: 205px;
+    }
+    .about-main__image img {
+        width: 100%;
+    }
+    .about-main .title-main {
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .about-main__content {
+        padding: 20px 15px;
+    }
+    .page-about {
+        padding-bottom: 50px;
+    }
+    .about-services {
+        padding-top: 39px;
+        padding-bottom: 170px;
+        margin-bottom: -60px;
+        border-radius: 60px 60px 0 0;
+    }
+    .about-cooperation {
+        border-radius: 50px 50px 0 0;
+    }
+    .about-services .about-services__item {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .unit-payment__title,
+    .item-cooperation__title {
+        font-size: 21px;
+    }
+    .item-cooperation .tags__item {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+    .item-cooperation {
+        height: 255px;
+    }
+    .about-cooperation {
+        padding-bottom: 55px;
+    }
+    .page-payment {
+        padding-top: 39px;
+        margin-top: 33px;
+        padding-bottom: 55px;
+        margin-bottom: 60px;
+        border-radius: 50px 50px 0 0;
+    }
+    .page-payment .title-section {
+        margin-bottom: 27px;
+    }
+    .page-payment .row--main+.title-section {
+        padding-top: 40px;
+    }
+    .billbord-tv__content {
+        padding: 0;
+    }
+    .billbord-tv__image img {
+        width: 100%;
+    }
+    .billbord-tv .tags {
+        padding: 0 15px;
+        margin-top: 15px;
+    }
+    .billbord-tv__content {
+        padding: 20px 15px;
+    }
+    .billbord-tv {
+        padding: 0;
+        padding-bottom: 25px;
+    }
+    .billbord-tv__buttons {
+        display: block;
+    }
+    .billbord-tv__buttons .btn-main {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .page-tv {
+        padding-bottom: 50px;
+    }
+    .tv-subscription, .tv-archive {
+        padding: 40px 0;
+        border-radius: 60px 60px 0 0;
+    }
+    .tv-subscription .title-section, .tv-archive .title-section {
+        margin-bottom: 23px;
+    }
+    .tv-archive--1 {
+        width: 100%;
+    }
+    .tv-archive--2 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .tv-archive__advantage {
+        top: 0;
+        left: 0;
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .tv-archive--2 .tv-archive__advantage {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .tv-devices {
+        padding: 50px 0;
+    }
+    .tv-devices .title-section {
+        margin-bottom: 25px;
+    }
+    .row-devices {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item-device__image {
+        height: 92px;
+        padding: 17px;
+        margin-bottom: 24px;
+    }
+    .item-device {
+        padding: 18px;
+        font-size: 14px;
+    }
+    .tariffs--main .item-tariff__head {
+        height: 163px;
+    }
+    .item-subscription__text {
+        min-height: 55px;
+    }
+    .tv-subscription .slick-dots li:not(.slick-active) button {
+        background: #fff;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1206,6 +1684,26 @@
     .btn-main.btn-main--page:hover {
         background: #000;
     }
+    .slick-arrow:hover {
+        background: #fbfbfb;
+        border-color: #fbfbfb;
+        color: #8D99AE;
+    }
+    .item-sale:hover .item-sale__image img {
+        transform: scale(1.05);
+    }
+    .item-news__link:hover {
+        text-decoration: none;
+    }
+    .item-news:hover {
+        box-shadow: 0 5px 15px #dbe0e2;
+    }
+    a.item-news__title:hover {
+        color: #d80032;
+    }
+    .item-subscription:hover .item-subscription__image img {
+        transform: scale(1.05);
+    }
 }
 
 /*mobile hovers*/
@@ -1235,5 +1733,25 @@
     }
     .btn-main.btn-main--page:active {
         background: #000;
+    }
+    .slick-arrow:active {
+        background: #fbfbfb;
+        border-color: #fbfbfb;
+        color: #8D99AE;
+    }
+    .item-sale:active .item-sale__image img {
+        transform: scale(1.05);
+    }
+    .item-news__link:active {
+        text-decoration: none;
+    }
+    .item-news:active {
+        box-shadow: 0 5px 15px #dbe0e2;
+    }
+    a.item-news__title:active {
+        color: #d80032;
+    }
+    .item-subscription:active .item-subscription__image img {
+        transform: scale(1.05);
     }
 }

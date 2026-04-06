@@ -34,15 +34,59 @@ $(document).ready(function() {
 
 	//слайдер
 
-	$('.slider').slick({
+
+		$('.slider-three').slick({
 		arrows: true,
-		dots: true,
+		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
-		slidesToShow: 1,
+		slidesToShow: 3,
 		slidesToScroll: 1,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i></div>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i></div>',
+		responsive: [
+		{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+					dots: true,
+				}
+			}
+		]
+	});
+
+	$('.slider-four').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i></div>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i></div>',
+		responsive: [
+		{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+					dots: true,
+				}
+			}
+		]
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
@@ -50,13 +94,14 @@ $(document).ready(function() {
 
 	 //tabs
 
-	   $('.tabs li a').click(function(event) {
-    event.preventDefault();
-    $(this).parent().parent().find("li").removeClass('active');
-    $(this).parent().addClass('active');
-    $(".tab-pane").fadeOut(0);
-    var selectTab = $(this).attr("href");
-    $(selectTab).fadeIn(200);
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+		$(".tab-pane").find(".slider-three").slick('setPosition');
   });
 
 	//Попап менеджер FancyBox
