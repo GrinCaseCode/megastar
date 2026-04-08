@@ -22,7 +22,7 @@
     }
     .logo-descr {
         width: 162px;
-    } 
+    }
     .btn-main {
         font-size: 14px;
         height: 50px;
@@ -651,6 +651,82 @@
     .item-subscription .price-main {
         margin: 18px 0;
     }
+    .grid-contacts {
+        gap: 12px;
+    }
+    .grid-contacts+.grid-contacts {
+        margin-top: 12px;
+    }
+    .item-contact {
+        padding: 16px;
+        border-radius: 22px;
+    }
+    .item-contact__phone {
+        font-size: 25px;
+    }
+    .item-contact__content {
+        font-size: 17px;
+    }
+    .item-contact__title {
+        margin-bottom: 18px;
+    }
+    .form-page {
+        padding: 20px 28px;
+        border-radius: 22px;
+    }
+    .form-page__title {
+        font-size: 26px;
+        margin-bottom: 6px;
+    }
+    .form-page .item-form input {
+        height: 50px;
+    }
+    .form-page .row>div {
+        padding: 0 4px;
+    }
+    .form-page .row {
+        margin: 0 -4px;
+    }
+    .item-form textarea {
+        height: 90px;
+        padding-top: 14px;
+    }
+    .form-page .btn-main {
+        height: 60px;
+    }
+    #map {
+        height: 450px;
+    }
+    .on-map {
+        padding-bottom: 70px;
+    }
+    .page-contacts .title-section {
+        margin-bottom: 30px;
+    }
+    .page-contacts {
+        padding-top: 35px;
+        margin-top: 36px;
+        padding-bottom: 120px;
+        border-radius: 70px 70px 0 0;
+    }
+    .sidebar-news {
+        padding: 25px;
+        margin-left: 40px;
+    }
+    .article-content h1 {
+        font-size: 35px;
+    }
+    .article-content {
+        font-size: 15px;
+    }
+    .article-content h2 {
+        font-size: 26px;
+    }
+    .breadcrumbs {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 34px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -943,6 +1019,28 @@
     .billbord-tv__title {
         font-size: 28px;
         margin-bottom: 17px;
+    }
+    .page-contacts .form-page {
+        margin-top: 25px;
+    }
+    .on-map {
+        margin-top: -105px;
+    }
+    .on-map .title-section {
+        margin-bottom: 18px;
+    }
+    .sidebar-news {
+        padding: 20px;
+        margin-left: 0px;
+    }
+    .article-content h1 {
+        font-size: 32px;
+    }
+    .article-content {
+        font-size: 14px;
+    }
+    .article-content h2 {
+        font-size: 21px;
     }
 }
 
@@ -1615,6 +1713,50 @@
     .tv-subscription .slick-dots li:not(.slick-active) button {
         background: #fff;
     }
+    .grid-contacts {
+        display: block;
+    }
+    .page-contacts {
+        padding-top: 34px;
+        margin-top: 24px;
+        padding-bottom: 130px;
+        border-radius: 50px 50px 0 0;
+    }
+    .item-contact {
+        margin-bottom: 15px;
+    }
+    .form-page {
+        padding: 20px 15px;
+    }
+    .on-map {
+        padding-bottom: 50px;
+    }
+    #map {
+        height: 380px;
+    }
+    .breadcrumbs {
+        padding-bottom: 20px;
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .article-content h1 {
+        font-size: 27px;
+    }
+    .article-content p, .article-content li {
+        margin-bottom: 15px;
+    }
+    .article-content img {
+        margin: 25px 0;
+        border-radius: 22px;
+    }
+    .sidebar-news {
+        margin-top: 15px;
+    }
+    .page-article {
+        padding-bottom: 50px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1649,7 +1791,11 @@
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {}
+@media only screen and (min-width : 1200px) {
+    .container {
+        max-width: 1250px;
+    }
+}
 @media (min-width: 1700px) {
     .container {
         max-width: 1690px;
